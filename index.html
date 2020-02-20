@@ -299,43 +299,10 @@ code.language-yaml {
 
 <h2 class="mume-header" id="%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2">写在前面</h2>
 
-<p>非常荣幸你有兴趣加入本群（<a href    ="//shang.qq.com/wpa/qunwpa?idkey=0de3fb42b8e84389e08a27d3a7b67a9cacafba221a009dbf696756db376c0af9">492030260</a>），和500+小伙伴一起为梦想奋斗</p>
-<p>下面有一些题目，不难，答对任何一道题目，在输入框的正下方会出现入群口令。</p>
-<p>这个页面存在的意义是希望提高群成员质量，经历过这个考验的你，相信考研也不过是小菜一碟，不用太慌张，我们会尽可能地为你提供帮助。</p>
-<p>无论你考的是813还是889或者其他计算机软件相关专业，下面的题几乎都是<code>必考题</code>，也应该是送分题（我们只选择了基础数据结构的题目），彻底弄明白这些题不会浪费你宝贵的时间。事实上，我们很乐意你因此而获益。</p>
-<p>此页面四种人可以通过：</p>
-<ul>
-<li>会编译运行js代码的你（答案经过简单加密，但我们不建议你去破解）</li>
-<li>会编译运行cpp(C++)代码的你（页面上提供了解答思路和源代码）（运行代码的软件我们推荐<a href="http://www.codeblocks.org/downloads/26">CodeBlocks</a>，Windows用户请下载带有mingw-setup.exe后缀的那个，否则你会发现自己没有编译器）（如果你知道g++是啥可以无视我们的建议）</li>
-<li>可以答出问题的你（所有题目只有不到十个点，手算很快的）</li>
-<li>虽然现在不会但是乐意学习的你（除了我们的简易思路外你还可以<a href="https://www.baidu.com">百度</a>，所有问题大概半个小时到一天的时间可以学会）</li>
-</ul>
-<p>此页面筛掉两种人：</p>
-<ul>
-<li>莫名其妙黄图哥 &amp; 无孔不入广告姐</li>
-<li>只会嘤嘤嘤，自己不带脑子的伸手党</li>
-</ul>
-<p>在你空闲的时候，如果你可以去读一下这篇文章，相信会收获颇丰：</p>
-<ul>
-<li><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way">提問的智慧</a></li>
-</ul>
-<p>你可能感兴趣的东西：</p>
-<ul>
-<li>18年北理计算机初试复试第一名卞西墨同学（群管理员）的回忆录 （在本群群文件，西墨同学拒绝发在公共场所）</li>
-<li><a href="http://www.cskaoyan.com/forum.php?mod=viewthread&amp;tid=649191">18年成功上岸的王浩同学（群管理员）的回忆录</a></li>
-<li><a href="http://cs.bit.edu.cn/zsjy/gzdt_zsjy/118589.htm">2018 北京理工大学拟录取名单</a></li>
-<li><a href="http://cs.bit.edu.cn/zsjy/gzdt_zsjy/98104.htm">2017 北京理工大学拟录取名单</a></li>
-<li><a href="http://www.cnblogs.com/xuwangzihao/p/8099016.html">2018 北京理工大学889 回忆版</a></li>
-<li><a href="http://www.cnblogs.com/xuwangzihao/p/8650174.html">2018 北京理工大学复试上机 回忆版</a>（在更新中）</li>
-<li><a href="http://www.cnblogs.com/xuwangzihao/p/7638485.html">C语言基础</a></li>
-<li><a href="http://www.cnblogs.com/xuwangzihao/p/7655297.html">数据结构基础</a></li>
-<li><a href="https://visualgo.net/zh">可视化数据结构</a></li>
-<li><a href="https://charlesliuyx.github.io/">leakless同学（群管理员）推荐的技术博客</a></li>
-</ul>
-<p>群问题源代码已经开源在：</p>
-<ul>
-<li><a href="https://github.com/xuwangzihao/xuwangzihao.github.io/tree/master/qgweb">Github</a></li>
-</ul>
+<p>非常荣幸你有兴趣加入本群（<a href    ="//shang.qq.com/wpa/qunwpa?idkey=0de3fb42b8e84389e08a27d3a7b67a9cacafba221a009dbf696756db376c0af9">492030260</a>）</p>
+<p>下面有一些专业课年年必考的基础题目，答对任何一道来证明你有通过考研的决心。</p>
+<p>点击 submit 后，在输入框的正下方就会出现入群口令。</p>
+
 <h2 class="mume-header" id="%E9%97%AE%E9%A2%981">问题1：</h2>
 
 <h3 class="mume-header" id="%E9%A2%98%E7%9B%AE">题目</h3>
@@ -400,59 +367,38 @@ code.language-yaml {
 <li>重复进行12直到左右指针定位在一个位置。</li>
 </ol>
 <hr>
-<p>以下和测验本身无关，描述了这个测验的一些原理</p>
-<h2 class="mume-header" id="%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B">快速开始</h2>
 
-<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token comment" spellcheck="true"># 生成readme.html然后加入meta来禁止缓存，加入scrip来完成前端交互，改名为index.html</span>
-g++ generator_bt.cpp -o generator_bt
-g++ generator_qs.cpp -o generator_qs
-<span class="token function">crontab</span> -e
-<span class="token comment" spellcheck="true"># * * * * * cd /opt/lampp/htdocs/bit_qq_group/ &amp;&amp; ./generator_bt</span>
-<span class="token comment" spellcheck="true"># * * * * * cd /opt/lampp/htdocs/bit_qq_group/ &amp;&amp; ./generator_qs</span>
-<span class="token function">cron</span> restart
-</pre><h2 class="mume-header" id="%E9%AA%8C%E8%AF%81%E6%B5%81%E7%A8%8B">验证流程</h2>
-
-<ul>
-<li>提供一个输入框用来输入答案</li>
-<li>用户输入答案后用js判断答案是否正确（判断部分做了简单加密）</li>
-<li>如果正确返回一个口令字符串用于加群，如果错误则返回一个字符串“Wrong Answer !”</li>
-<li>群问题会指向这个链接，答案是一串生成的强口令</li>
-</ul>
-<h2 class="mume-header" id="%E9%97%AE%E9%A2%98%E7%94%9F%E6%88%90%E5%99%A81generater_btcpp">问题生成器1（generater_bt.cpp）</h2>
-
-<ul>
-<li>生成中序
-<ul>
-<li>随机生成一个长度为10的数组，数字从1到10，无序互异</li>
-</ul>
-</li>
-<li>生成前序
-<ul>
-<li>在已有数组上随机挑一个点作为当前子树根结点，数组划分为两个子数组，重复这一步</li>
-<li>基于生成的树计算其前序和后序</li>
-</ul>
-</li>
-<li>把前序和中序和后序存成输入文件（in_bt.json）</li>
-</ul>
-<h2 class="mume-header" id="%E9%97%AE%E9%A2%98%E7%94%9F%E6%88%90%E5%99%A82generater_qscpp">问题生成器2（generater_qs.cpp）</h2>
-
-<ul>
-<li>生成输入数据
-<ul>
-<li>随机生成一个长度为10的数组，数字从1到10，无序互异</li>
-</ul>
-</li>
-<li>生成答案
-<ul>
-<li>跑一遍快排的第一趟</li>
-</ul>
-</li>
-<li>把输入数据和答案存成输入文件（in_qs.json）</li>
-</ul>
 <h2 class="mume-header" id="%E5%86%99%E5%9C%A8%E5%90%8E%E9%9D%A2">写在后面</h2>
 
-<p>群主学生物的，和不少群友一样是跨考的（管理员里有农业的和土木的），其实考研根本不会歧视双非（非985非211），也不会歧视三跨（跨地域跨学校跨专业），歧视的是无能。你在网上看到的各种感觉自己被歧视了的声音，不过是给自己找个台阶下的无病呻吟，请你不要相信更不要恐惧。老师招学生是为了出成果，发论文做项目也不能拒绝实践仅仅纸上谈兵，复试不会因为你跨考而降低难度，老师不会因为你是985本科而降低期待，如果你拒绝平等的接受测试并认为平等是一种歧视，群里不欢迎你，同时建议立即放弃考研。</p>
-<p>PS. 通常情况下，双非和985同台竞技，如果能力相同，985的心理压力更大，而且更容易让老师失望。这是很好理解的。</p>
+<p>这个页面存在的意义是希望提高群成员质量，经历过这个考验的你，相信考研也不过是小菜一碟。</p>
+<p>此页面四种人可以通过：</p>
+<ul>
+<li>会编译运行js代码的你（答案经过简单加密，但我们不建议你去破解）</li>
+<li>会编译运行cpp(C++)代码的你（页面上提供了解答思路和源代码）（运行代码的软件我们推荐<a href="http://www.codeblocks.org/downloads/26">CodeBlocks</a>，Windows用户请下载带有mingw-setup.exe后缀的那个，否则你会发现自己没有编译器）（如果你知道g++是啥可以无视我们的建议）</li>
+<li>可以答出问题的你（所有题目只有不到十个点，手算很快的）</li>
+<li>虽然现在不会但是乐意学习的你（除了我们的简易思路外你还可以<a href="https://www.baidu.com">百度</a>，所有问题大概半个小时到一天的时间可以学会）</li>
+</ul>
+<p>此页面筛掉两种人：</p>
+<ul>
+<li>莫名其妙黄图哥 &amp; 无孔不入广告姐</li>
+<li>只会嘤嘤嘤，自己不带脑子的伸手党</li>
+</ul>
+<p>在你空闲的时候，如果你可以去读一下这篇文章，相信会收获颇丰：</p>
+<ul>
+<li><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way">提問的智慧</a></li>
+</ul>
+<p>你可能感兴趣的东西：</p>
+<ul>
+<li>18年北理计算机初试复试第一名卞西墨同学（群管理员）的回忆录 （在本群群文件）</li>
+<li><a href="http://www.cskaoyan.com/forum.php?mod=viewthread&amp;tid=649191">18年成功上岸的王同学的回忆录</a></li>
+<li><a href="http://cs.bit.edu.cn/zsjy/gzdt_zsjy/118589.htm">2018 北京理工大学拟录取名单</a></li>
+<li><a href="http://cs.bit.edu.cn/zsjy/gzdt_zsjy/98104.htm">2017 北京理工大学拟录取名单</a></li>
+<li><a href="http://www.cnblogs.com/xuwangzihao/p/8099016.html">2018 北京理工大学889 回忆版</a></li>
+<li><a href="http://www.cnblogs.com/xuwangzihao/p/8650174.html">2018 北京理工大学复试上机 回忆版</a></li>
+<li><a href="https://visualgo.net/zh">可视化数据结构</a></li>
+</ul>
+
+<p>群主学生物的，和不少群友一样是跨考的（管理员里有农业的和土木的），其实考研根本不会歧视双非，也不会歧视三跨，歧视的是无能。你在网上看到的各种感觉自己被歧视了的声音，不过是给自己找个台阶下的无病呻吟，请你不要相信更不要恐惧。老师招学生是为了出成果，发论文做项目也不能拒绝实践仅仅纸上谈兵，复试不会因为你跨考而降低难度，老师不会因为你是985本科而降低期待，如果你拒绝平等的接受测试并认为平等是一种歧视，立即推：放弃考研。</p>
 <p>很多时候很多人，说得太多做的太少，每天都在犹豫在彷徨，这是十分愚蠢的事。没有人天生就是专家是大佬，都有刚刚入门懵懂无知的时期。闻道有先后术业有专攻，我们要做的其实很简单，通向成功的道路其实从来只有一条，那就是脚踏实地。选择有很多，我们要仰望星空，要有更高的追求。可是一旦目标确定了，那你就没有选择了，这时候就需要坚定理想，需要脚踏实地，需要发奋图强。</p>
 <p>“如果你知道自己要去哪儿，全世界都会为你让路。”这不只是鸡汤，事实往往就是如此。群里的小伙伴都是基于一个信念聚在一起的，我们期待并感谢优秀的你的加入，帮助并陪伴你勇敢的迎接人生的下一个挑战。</p>
 
@@ -474,10 +420,6 @@ g++ generator_qs.cpp -o generator_qs
 <li><a href="#%E6%A0%87%E5%87%86%E7%A8%8B%E5%BA%8F2httpsgithubcomxuwangzihaoxuwangzihaogithubioblobmasterqgwebstd_qscpp-std_qscpp">标准程序2 (std_qs.cpp)</a></li>
 </ul>
 </li>
-<li><a href="#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B">快速开始</a></li>
-<li><a href="#%E9%AA%8C%E8%AF%81%E6%B5%81%E7%A8%8B">验证流程</a></li>
-<li><a href="#%E9%97%AE%E9%A2%98%E7%94%9F%E6%88%90%E5%99%A81generater_btcpp">问题生成器1（generater_bt.cpp）</a></li>
-<li><a href="#%E9%97%AE%E9%A2%98%E7%94%9F%E6%88%90%E5%99%A82generater_qscpp">问题生成器2（generater_qs.cpp）</a></li>
 <li><a href="#%E5%86%99%E5%9C%A8%E5%90%8E%E9%9D%A2">写在后面</a></li>
 </ul>
 </li>
